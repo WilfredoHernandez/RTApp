@@ -1,0 +1,70 @@
+#background{
+    --background: none;
+    background-image: url('D:\Software\RTApp\RTApp\src\assets\img\whiteBg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }    
+  
+  .flechaIr{
+      position: relative;
+      width: 46%; height: 5%;
+      left: -50px; top: 10px;
+      transform: scalex(-1);  
+  }
+  
+  .text1{
+      position: relative;
+      width: 8em; height: 23%;
+      top: 6.5%; right: 150%;
+      bottom: 0px; left: 0.7em;
+      color: #fc4b08;
+      font-size: 43px;
+  }
+  
+  .text2{
+      position: relative;
+      width: 15em; height: 2.5em;
+      top: 1px; right: 150%;
+       left: 2em;
+      color: #fc4b08;
+      font-size: 17px;
+  }
+  
+  .textrequest{
+      position: relative;
+      width: 16em; height: 2em;
+      top: 7%; right: 150%;
+      bottom: auto; left: 9%;
+      color: #b3b3b3;
+  
+  }
+  
+  .request{
+      position: relative;
+      width: 75%; left: 9%;
+      height: 30px; top: 8%;
+      border-radius: 20px;
+      border-width: 10px;
+      background-color: #b3b3b3;
+      opacity: .4;
+      color: rgb(48, 48, 48);
+  
+  
+  }
+  
+  #requestbutton{
+      position: relative;
+      width: 150px; left: 29%;
+      height: 30px; top: 15%;
+      --background: rgb(252, 72, 8);
+  }
+  
+  #backlogin{
+      position: relative;
+      width: 150px; left: -11.5%;
+      height: 30px; top: 45.5%;
+      color: rgb(252, 72, 8);
+  
+  
+  }
