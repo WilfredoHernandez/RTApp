@@ -68,3 +68,13 @@
   
   
   }
+  /*Media query to adapt design to screens with min-height of 800px*/
+  @media screen and (min-height: 800px) {
+    #requestbutton {
+        left: 24%
+    }
+
+    #backlogin {
+       left: -21%;
+    }
+}
