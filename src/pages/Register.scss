@@ -1,7 +1,7 @@
 /* SCSS file to apply style to the view's structure */
 
 #background {
-  --background: url('../components/Backgrounds/whiteBg.png') no-repeat center center / cover;
+  --background: url('../components/backgrounds/whiteBg.png') no-repeat center center / cover;
   --overflow: hidden;
 }
 
@@ -16,7 +16,7 @@
     border-radius: 15px;
     border-width: 1px;
     --color: #999;
-    font-family: 'Work Sans';
+    font-family: 'Nexa';
     margin: 15px 0;
     max-width: 70vw;
     --padding-start: 16px;
