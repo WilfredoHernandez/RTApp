@@ -32,11 +32,11 @@ const Forget: React.FC = () => {
                 placeholder="">
             </IonInput>
   
-            <IonButton className="requestbutton" 
+            <IonButton className="ion-text-center ion-margin" 
                        id="requestbutton" 
                        shape="round" >Request Reset</IonButton>
         
-            <IonButton className="backlogin" 
+            <IonButton className="ion-text-center ion-margin" 
                         id="backlogin" 
                         routerLink="/Home" 
                         fill="clear" > Back to Login </IonButton>

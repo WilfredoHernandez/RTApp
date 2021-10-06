@@ -55,14 +55,14 @@
   
   #requestbutton{
       position: relative;
-      width: 150px; left: 29%;
+      width: 150px; left: 25%;
       height: 30px; top: 15%;
       --background: rgb(252, 72, 8);
   }
   
   #backlogin{
       position: relative;
-      width: 150px; left: -11.5%;
+      width: 150px; left: -20.5%;
       height: 30px; top: 45.5%;
       color: rgb(252, 72, 8);
   
