@@ -1,0 +1,185 @@
+/* SCSS file to apply style to the view's structure */
+
+#background {
+  --background: url('../components/Backgrounds/whiteBg.png') no-repeat center center / cover;
+  --overflow: hidden;
+}
+
+#form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#inputStyle {
+    --background: rgba(68, 68, 68, .23);
+    border-radius: 15px;
+    border-width: 1px;
+    --color: #999;
+    font-family: 'Work Sans';
+    margin: 15px 0;
+    max-width: 70vw;
+    --padding-start: 16px;
+    
+  }
+
+#loginLink {
+    text-decoration: none;
+}
+
+h1 {
+    color: #fc4b08;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#checkboxTerms {
+  margin: 5px;
+  --size: 25px;
+}
+
+#checkboxTerms+p {
+  font-size: 12px;
+  margin: 5px;
+}
+
+#myCheckbox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+#arrowBack {
+  height: 65px;
+  object-fit: cover;
+  object-position: 30px;
+  transform: scaleX(-1);
+  width: 150px;
+}
+
+#imgContainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+#signupBtn {
+  --border-radius: 15px;
+  --background: #fc4b08;
+  font-size: 25px;
+  height: 45px;
+  padding: 5px;
+  text-transform: capitalize;
+  width: 155px;
+}
+
+#loginLink {
+  color: #fc4b08;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#footer>p {
+  color: #fc4b08;
+}
+
+#form #inputStyle {
+  text-align: left;
+}
+
+#checkboxTerms {
+  --background: #ffa360;
+  --background-checked: #fc4b08;
+  --border-color: #ffa360;
+  --border-color-checked: #fc4b08;
+}
+
+#termsText {
+  color: #ffa360;
+}
+
+#footer {
+  margin-top: 6vh;
+}
+
+/* Media query to adapt design to screens with a max-width of 375px */
+@media  screen and (max-width: 375px) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  #inputStyle {
+    margin: 10px 0;
+  }
+
+  #myCheckbox {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query to adapt design to screens with a max-width of 320px */
+@media  screen and (max-width: 320px) {
+  h1 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+
+  #arrowBack {
+    height: 55px;
+    width: 140px;
+  }
+
+  #checkboxTerms {
+    --size: 18px;
+  }
+
+  #checkboxTerms+p {
+    font-size: 10px;
+  }
+
+  #signupBtn {
+    font-size: 20px;
+    height: 40px;
+    width: 125px;
+  }
+
+  #footer {
+    margin-top: 3vh;
+  }
+}
+
+/* Media query to adapt design to screens with a min-height of 800px */
+@media  screen and (min-height: 800px) {
+  #inputStyle {
+    margin: 15px 0;
+  }
+
+  #myCheckbox {
+    margin-bottom: 30px;
+    margin-top: 25px;
+  }
+
+  #footer {
+    margin-top: 10vh;
+  }
+}
+
+/* Media query to adapt design to screens with a min-width of 1024px */
+@media  screen and (min-width: 1024px) {
+  #footer {
+    margin-top: 4vh;
+  }
+}
+
+/* Media query to adapt design to screens with a min-width of 768px and max-height of 1024px */
+@media  screen and (min-width: 768px) and (max-height: 1024px) {
+  #footer {
+    margin-top: 6vh;
+  }
+}
