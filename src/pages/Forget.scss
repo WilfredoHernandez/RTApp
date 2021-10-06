@@ -109,7 +109,6 @@
         width: 125px; left: 25%;
         height: 32px; top: 15%;
         font-size: 16.18px;
-        
         --background: rgb(252, 72, 8);
     }
 
@@ -178,3 +177,32 @@
     }
 
 }
+    /*Media query to adapt design to screens with min-height of 800px*/
+  @media screen and (min-height: 800px) {
+
+    .text1{
+        height: 21.7%;
+        font-size: 42px;
+        color: #fc4b08;
+    }
+    
+    .text2{
+        top: 8px;
+        font-size: 17.4px;
+    }
+
+    .textrequest{
+        font-size: 17.4px;
+  
+    }
+
+    #requestbutton {
+        left: 24%;
+        font-size: 17.4px
+    }
+
+    #backlogin {
+        top: 48%; left: -24%;
+        font-size: 17.4px;
+    }
+} 
