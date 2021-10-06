@@ -67,8 +67,8 @@ const Register: React.FC = () => {
           onIonChange = {(e: any) => setTerms(e.target.value)}/>
           <p id = "termsText">I accept the Terms & Conditions</p>
         </div>
-          {/* Creating a button using the Ionic component for the user to send their data when they press it */}
-          <IonButton id = "signupBtn" onClick = {registerUser}>Sign Up</IonButton>
+        {/* Creating a button using the Ionic component for the user to send their data when they press it */}
+        <IonButton id = "signupBtn" onClick = {registerUser}>Sign Up</IonButton>
         <div id = "footer">
           {/* p element with a React Link component to redirect the user 
           to the login view in case that they already have an account */}

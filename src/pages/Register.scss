@@ -17,9 +17,11 @@
     border-width: 1px;
     --color: #999;
     font-family: 'Nexa';
+    max-height: 35px;
     margin: 15px 0;
     max-width: 70vw;
     --padding-start: 16px;
+    --padding-top: 15px;
     
   }
 
@@ -30,19 +32,21 @@
 h1 {
     color: #fc4b08;
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: 900;
     margin-bottom: 30px;
     margin-top: 10px;
+    text-shadow: 0px 1px, 1px 0px;
+    transform: scaleY(.95);
 }
 
 #checkboxTerms {
-  margin: 5px;
+  margin: 12px;
   --size: 25px;
 }
 
 #checkboxTerms+p {
   font-size: 12px;
-  margin: 5px;
+  margin-top: 15px;
 }
 
 #myCheckbox {
@@ -73,6 +77,7 @@ h1 {
   font-size: 25px;
   height: 45px;
   padding: 5px;
+  --padding-top: 5px;
   text-transform: capitalize;
   width: 155px;
 }
@@ -80,7 +85,8 @@ h1 {
 #loginLink {
   color: #fc4b08;
   font-style: italic;
-  font-weight: bolder;
+  font-weight: 900;
+  text-shadow: 0px 1px;
 }
 
 #footer>p {
@@ -100,6 +106,7 @@ h1 {
 
 #termsText {
   color: #ffa360;
+  
 }
 
 #footer {
