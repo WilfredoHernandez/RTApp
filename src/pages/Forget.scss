@@ -135,7 +135,7 @@
 }
 
 
-  /*Media query to adapt design to screebs with min-height of 320px*/
+  /*Media query to adapt design to screebs with max-width of 320px*/
   @media screen and (max-width: 320px) {
     .flechaIr{
         position: relative;
@@ -188,6 +188,14 @@
         color: rgb(252, 72, 8);
     }
 
+}
+
+  /*Media query to adapt design to screebs with max-width of 360px*/
+  @media screen and (min-width: 360px) and (max-height: 640px) {
+    #backlogin {
+        top: 30vh;
+        left: 20vw;
+    }
 }
     /*Media query to adapt design to screens with min-height of 800px*/
   @media screen and (min-height: 800px) {

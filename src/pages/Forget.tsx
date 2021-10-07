@@ -1,4 +1,4 @@
-import { IonButton, IonButtons, IonContent, IonHeader, IonIcon, IonImg, IonInput, IonLabel, IonPage, IonTitle, IonToolbar, IonItem, IonText } from '@ionic/react';
+import { IonButton, IonButtons, IonContent, IonImg, IonInput, IonPage} from '@ionic/react';
 import './Forget.scss';
 
 const Forget: React.FC = () => {
