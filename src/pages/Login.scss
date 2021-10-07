@@ -69,3 +69,71 @@
       font-size: 18px;
       color: rgb(252, 72, 8);
   }
+
+  /* Media query to adapt design to screens with a max-width of 768px and max-height of 1024px */
+  @media screen and (min-width: 768px) and (max-height: 1024px) {
+    .text1{
+        position: relative;
+        width: 8em; height: 23%;
+        top: 13%; right: 150%;
+        bottom: 0px; left: 0.3em;
+        font-size: 140px;
+    }
+    
+    .text2{
+        position: relative;
+        width: 15em; height: 2.5em;
+        top: 50px; right: 150%;
+         left: 1.6em;
+        color: #fc4b08;
+        font-size: 35px;
+    }
+    
+    .requestUsr{
+        position: relative;
+        width: 76%; left: 8%;
+        height: 60px; top: 12.5%;
+        border-radius: 25px;
+        border-width: 10px;
+        background-color: #b3b3b3;
+        opacity: .4;
+        font-size: 27px;
+        color: rgb(48, 48, 48); 
+    }
+  
+    .requestPsw{
+      position: relative;
+      width: 76%; left: 8%;
+      height: 60px; top: 21.7%;
+      border-radius: 25px;
+      border-width: 10px;
+      background-color: #b3b3b3;
+      opacity: .4;
+      font-size: 27px;
+      color: rgb(48, 48, 48); 
+  }
+    
+    #loginbutton{
+        position: relative;
+        width: 160px; left: 7%;
+        height: 50px; top: 28%;
+        font-size: 40px;
+
+    }
+    
+    #forgotPsw{
+        position: relative;
+        width: 350px; right: -21%;
+        height: 40px; top: 28%;
+        font-size: 32px;
+
+    }
+  
+    #signUp{
+        position: relative;
+        width: 370px; left: 22%;
+        height: 45px; top: 35%;
+        font-size: 32px;
+
+    }
+  }
