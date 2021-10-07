@@ -37,7 +37,7 @@ const Login: React.FC = () => {
             <IonButton className="ion-text-center ion-margin" 
                         id="signUp" 
                         routerLink="/Registry" 
-                        fill="clear" > New here? Sign Up!</IonButton>
+                        fill="clear" >New here? Sign Up!</IonButton>
             </IonContent>       
         </IonPage>
 
