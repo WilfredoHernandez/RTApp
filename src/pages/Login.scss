@@ -69,3 +69,138 @@
       font-size: 18px;
       color: rgb(252, 72, 8);
   }
+  /*Media query to adapt design to screens with min-height of 1024px*/
+  @media screen and (min-width: 1024px){
+    .text1{
+        position: relative;
+        width: 8em; height: 23%;
+        top: 12.5%; right: 150%;
+        bottom: 0px; left: 0.5em;
+        color: #fc4b08;
+        font-size: 150px;
+    }
+    
+    .text2{
+        position: relative;
+        width: 15em; height: 2.5em;
+        top: 8px; right: 150%;
+         left: 2.1em;
+        color: #fc4b08;
+        font-size: 40px;
+    }
+    
+    .requestUsr{
+        position: relative;
+        width: 79%; left: 8.5%;
+        height: 85px; top: 7.5%;
+        border-radius: 45px;
+        border-width: 15px;
+        background-color: #b3b3b3;
+        opacity: .4;
+        color: rgb(48, 48, 48); 
+        font-size: 40px;
+    }
+  
+    .requestPsw{
+      position: relative;
+      width: 79%; left: 8.5%;
+      height: 85px; top: 13.5%;
+      border-radius: 45px;
+      border-width: 15px;
+      background-color: #b3b3b3;
+      opacity: .4;
+      color: rgb(48, 48, 48); 
+      font-size: 40px;
+  }
+    
+    #loginbutton{
+        position: relative;
+        width: 250px; left: 10%;
+        height: 70px; top: 23.4%;
+        --background: rgb(252, 72, 8);
+        font-size: 50px;
+    }
+    
+    #forgotPsw{
+        position: relative;
+        width: 320px; right: -22.5%;
+        height: 90px; top: 23.4%;
+        color: rgb(252, 72, 8);
+        font-size: 40px;
+    }
+  
+    #signUp{
+        position: relative;
+        width: 550px; left: 20%;
+        height: 60px; top: 35%;
+        font-size: 40px;
+        color: rgb(252, 72, 8);
+  }
+  
+}
+/*Media query to adapt design to screens with min-height of 320px*/
+@media screen and (max-width: 320px){
+    .text1{
+        position: relative;
+        width: 8em; height: 23%;
+        top: 15.5%; right: 150%;
+        bottom: 10px; left: 0.4em;
+        color: #fc4b08;
+        font-size: 60px;
+    }
+    .text2{
+        position: relative;
+        width: 15em; height: 2.5em;
+        top: 15px; right: 150%;
+         left: 1.7em;
+        color: #fc4b08;
+        font-size: 16px;
+    }
+    .requestUsr{
+        position: relative;
+        width: 79%; left: 8.7%;
+        height: 30px; top: 10.5%;
+        border-radius: 49px;
+        border-width: 15px;
+        background-color: #b3b3b3;
+        opacity: .4;
+        color: rgb(48, 48, 48); 
+        font-size: 15px;
+    }
+    .requestPsw{
+        position: relative;
+        width: 79%; left: 8.7%;
+        height: 30px; top: 16.5%;
+        border-radius: 49px;
+        border-width: 15px;
+        background-color: #b3b3b3;
+        opacity: .4;
+        color: rgb(48, 48, 48); 
+        font-size: 15px;
+    }
+    #loginbutton{
+        position: relative;
+        width: 100px; left: 2%;
+        height: 30px; top: 23.4%;
+        --background: rgb(252, 72, 8);
+        font-size: 20px;
+    }
+    
+    #forgotPsw{
+        position: relative;
+        width: 125px; right: -45.5%;
+        height: 30px; top: 12.4%;
+        color: rgb(252, 72, 8);
+        font-size: 15px;
+    }
+  
+    #signUp{
+        position: relative;
+        width: 550px; left: -50%;
+        height: 60px; top: 20%;
+        font-size: 14px;
+        color: rgb(252, 72, 8);
+  }
+      
+
+}
