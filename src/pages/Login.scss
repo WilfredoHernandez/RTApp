@@ -121,18 +121,18 @@
     
     #forgotPsw{
         position: relative;
-        width: 150px; right: -4%;
-        height: 30px; top: 30.4%;
-        font-size: 18px;
+        width: 150px; right: -42%;
+        height: 30px; top: 18.4%;
+        font-size: 11px;
         color: rgb(252, 72, 8);
 
     }
   
     #signUp{
         position: relative;
-        width: 170px; left: 19%;
-        height: 20px; top: 40%;
-        font-size: 18px;
+        width: 200px; left: 9%;
+        height: 20px; top: 20%;
+        font-size: 16px;
         color: rgb(252, 72, 8);
     }
 }
@@ -143,7 +143,7 @@
     .text1{
         position: relative;
         width: 8em; height: 23%;
-        top: 21.5%; right: 150%;
+        top: 10%; right: 150%;
         bottom: 0px; left: 0.3em;
         color: #fc4b08;
         font-size: 65px;
@@ -152,7 +152,7 @@
     .text2{
         position: relative;
         width: 15em; height: 2.5em;
-        top: 63px; left: 24px;
+        top: 1%; left: 24px;
         color: #fc4b08;
         font-size: 18px;
     }
@@ -160,7 +160,7 @@
     .requestUsr{
         position: relative;
         width: 79%; left: 5%;
-        height: 35px; top: 16.5%;
+        height: 35px; top: 5%;
         border-radius: 20px;
         border-width: 10px;
         background-color: #b3b3b3;
@@ -172,21 +172,38 @@
     .requestPsw{
       position: relative;
       width: 79%; left: 5%;
-      height: 35px; top: 22.4%;
+      height: 35px; top: 12%;
       border-radius: 20px;
       border-width: 10px;
       background-color: #b3b3b3;
-      font-size: 18px;
+      font-size: 16px;
       color: rgb(48, 48, 48); 
   }
     
     #loginbutton{
         position: relative;
         width: 100px; left: 0%;
-        height: 35px; top: 30.4%;
+        height: 35px; top: 18%;
         font-size: 16px;
         --background: rgb(252, 72, 8);
     }
+}
+
+    #forgotPsw{
+        position: relative;
+        width: 150px; right: -2%;
+        height: 30px; top: 18%;
+        font-size: 11px;
+        color: rgb(252, 72, 8);
+
+}
+
+    #signUp{
+        position: relative;
+        width: 200px; left: 25%;
+        height: 45px; top: 30%;
+        font-size: 16px;
+        color: rgb(252, 72, 8);
 }
 
 
