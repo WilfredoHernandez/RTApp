@@ -4,6 +4,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    --overflow: hidden;
   }    
   
   .flechaIr{
@@ -20,6 +21,8 @@
       bottom: 0px; left: 0.7em;
       color: #fc4b08;
       font-size: 43px;
+      font-weight: 900;
+      text-shadow: 0px 1px, 1px 0px;
   }
   
   .text2{
@@ -37,7 +40,7 @@
       top: 7%; right: 150%;
       bottom: auto; left: 9%;
       font-size: 18px;
-      color: #b3b3b3;
+      color: #999;
   
   }
   
@@ -45,11 +48,12 @@
       position: relative;
       width: 75%; left: 9%;
       height: 30px; top: 8%;
-      border-radius: 20px;
-      border-width: 10px;
-      background-color: #b3b3b3;
-      opacity: .4;
-      color: rgb(48, 48, 48); 
+      border-radius: 15px;
+      border-width: 1px;
+      max-width: 70vw;
+      --color: #999;
+      --background: rgba(68, 68, 68, .23);
+      --padding-start: 16px;
   }
   
   #requestbutton{
@@ -57,7 +61,10 @@
       width: 150px; left: 25%;
       height: 30px; top: 15%;
       font-size: 18px;
-      --background: rgb(252, 72, 8);
+      font-style: italic;
+      --background: #fc4b08;
+      --padding-top: 5px;
+      --border-radius: 13px;
   }
   
   #backlogin{
@@ -65,7 +72,12 @@
       width: 150px; left: -20.5%;
       height: 30px; top: 43.5%;
       font-size: 18px;
-      color: rgb(252, 72, 8);
+      color: #fc4b08;
+  }
+
+  #backlogin>p>span {
+      font-weight: 900;
+      font-style: italic;
   }
 
    /* Media query to adapt design to screebs with min-height of 375px*/

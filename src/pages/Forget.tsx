@@ -23,7 +23,7 @@ const Forget: React.FC = () => {
             <p> Please enter the email address you´d like your password reset information sent to: </p>
         </div>
 
-        <div className="textrequest" color="light">
+        <div className="textrequest">
             <p>Enter email address</p>
         </div>
 
@@ -33,13 +33,12 @@ const Forget: React.FC = () => {
             </IonInput>
   
             <IonButton className="ion-text-center ion-margin" 
-                       id="requestbutton" 
-                       shape="round" >Request Reset</IonButton>
+                       id="requestbutton" >Request reset</IonButton>
         
             <IonButton className="ion-text-center ion-margin" 
                         id="backlogin" 
                         routerLink="/Home" 
-                        fill="clear" > Back to Login </IonButton>
+                        fill="clear" ><p>Back to <span>login</span></p></IonButton>
 
             </IonContent>       
         </IonPage>
