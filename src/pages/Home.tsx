@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       </IonContent>
       <IonContent className="ion-padding">
       <div className="ion-text-center ion-margin">
-            <IonButton routerLink="/Forget">Login</IonButton>
+            <IonButton routerLink="/Login">Login</IonButton>
         </div>
       </IonContent>
     </IonPage>
