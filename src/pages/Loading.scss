@@ -1,0 +1,5 @@
+/* SCSS file to give a background to the loading view */
+#background {
+  --background: url('../components/backgrounds/openingScreen.png') no-repeat center center / cover;
+  --overflow: hidden;
+}
