@@ -1,0 +1,277 @@
+#background{
+    --background: none;
+    background: url('../components/backgrounds/whiteBg.png') no-repeat center center / cover;
+    --overflow: hidden;
+  }    
+  
+  .header{
+      margin-top: 24vh;
+      color: #fc4b08;
+      font-size: 80px;
+      font-family: 'Nexa';
+      text-align: left;
+      padding-left: 40px;
+      
+  }
+  
+  .subHeader{
+      width: 65vw; 
+      height: 10vh;
+      color: #fc4b08;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 44px;
+      margin-bottom: -10px;
+      margin-top: -3vh;
+  }
+  
+  .loginInput{
+      max-width: 70vw; 
+      max-height: 35px; 
+      border-radius: 15px;
+      border-width: 1px;
+      --color: #999;
+      --background: rgba(68, 68, 68, .23); 
+      font-family: 'Nexa';
+      --padding-start: 16px;
+      --padding-top: 15px; 
+      margin: 25px 0;
+      left: -6vw;
+  }
+
+  #loginForm .loginInput {
+      text-align: left;
+  }
+  
+  #loginButton{
+      position: relative;
+      width: 110px; left: 2%;
+      height: 35px; top: 30.4%;
+      font-size: 25px;
+      --background: rgb(252, 72, 8);
+      --border-radius: 15px;
+      --padding-top: 8px; 
+      
+  }
+  
+  #forgotPsw{
+      position: relative;
+      width: 180px; right: -11.5%;
+      height: 30px; top: 32.4%;
+      font-size: 18px;
+      color: rgb(252, 72, 8);
+      padding-top: 10px;
+  }
+
+  #signUp{
+      margin-top: 15vh;
+      width: 170px; 
+      height: 45px; 
+      font-size: 18px;
+      color: rgb(252, 72, 8);
+  }
+
+  #loginForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #optionsContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 27px;
+    margin-top: 4vh;
+  }
+
+/*Media query to adapt design to screens with max-width of 320px*/
+@media screen and (max-width: 320px){
+    .header{
+        margin-top: 12vh;
+        font-size: 80px;
+        text-align: left;
+        padding-left: 30px;      
+    }
+
+    .subHeader{
+        padding-left: 30px;
+    }
+
+    .loginInput{
+        margin: 21px 0;
+    }
+
+    #loginButton{
+        font-size: 20px;
+    }
+
+    #optionsContainer {
+        align-items: center;
+        display: flex;
+        padding-left: 27px;
+        margin-top: 3vh;
+      }
+
+      #signUp{
+        margin-top: -40vh;
+        font-size: 16px;
+    }
+}
+/*Media query to adapt design to screens with min-width of 1024px*/
+@media screen and (min-width: 1024px){
+    .header{
+        top: 12%;
+        font-size: 200px;
+      }
+  
+      .subHeader{
+          top: 4%;
+          font-size: 45px;
+      }
+  
+      .requestUsr{
+          width: 79%; height: 80px;
+          left:70px; top: 10%;
+          font-size: 40px;
+          border-radius: 40px;
+          border-width: 10px;
+      }
+  
+      .requestPsw{
+          width: 79%; height: 80px;
+          left: 70px; top: 17%;
+          font-size: 40px;
+          border-radius: 40px;
+          border-width: 10px;
+      }
+  
+      #loginButton{
+          width: 30%; left: 70px;
+          height: 80px; top: 24%;
+          font-size: 50px;
+      }
+  
+      #forgotPsw{
+          width: 37%; height: 55px;
+          left: 20%; top: 24%;
+          font-size: 40px;
+      }
+    
+      #signUp{
+          width: 40%; height: 55px;
+          left: 28%; top: 38.5%;
+          font-size: 40px;
+      }
+
+}
+/* Media query to adapt design to screebs with max-width of 375px*/
+@media screen and (max-width: 375px) {
+     
+    .header{
+        width: 8em; height: 23%;
+        top: 10%; right: 150%;
+        bottom: 0px; left: 0.3em;
+        color: #fc4b08;
+        font-size: 65px;
+    }
+    
+    .subHeader{
+        width: 15em; height: 2.5em;
+        top: 1%; left: 24px;
+        color: #fc4b08;
+        font-size: 18px;
+        margin-top: -60px;
+    }
+    
+    .loginInput{
+        max-width: 70vw; 
+        max-height: 35px; 
+        border-radius: 15px;
+        border-width: 1px;
+        --color: #999;
+        --background: rgba(68, 68, 68, .23); 
+        font-family: 'Nexa';
+        --padding-start: 16px;
+        --padding-top: 15px; 
+        margin: 25px 0;
+        left: -6vw;
+    }
+
+    }
+  
+    .requestPsw{
+      position: relative;
+      width: 79%; left: 5%;
+      height: 35px; top: 12%;
+      border-radius: 20px;
+      border-width: 10px;
+      background-color: #b3b3b3;
+      font-size: 16px;
+      color: rgb(48, 48, 48); 
+  }
+    
+    #loginButton{
+        position: relative;
+        width: 100px; left: 1.5vw;
+        height: 35px; top: 15%;
+        font-size: 16px;
+        font-style: normal;
+        --background: rgb(252, 72, 8);
+    }
+
+
+    #forgotPsw{
+        position: relative;
+        width: 300px; right: -2%;
+        height: 30px; top: 31%;
+        font-size: 16px;
+        color: rgb(252, 72, 8);
+    }
+
+    #signUp {
+        margin-top: 15%;
+        width: 250px;
+        left: 9%;
+        height: 45px;
+        top: 12%;
+        font-size: 18px;
+        color: #fc4808;
+    }
+
+/*Media query to adapt design to screens with min-height of 800px*/
+@media screen and (min-height: 800px) {
+
+    .header{
+        width: 80vw; 
+        top: 0vh; 
+        right: 150%;
+        bottom: 0px;
+        left: -2vw;
+        color: #fc4b08;
+        font-size: 80px;
+    }
+
+    .subHeader{
+        font-size: 20px;
+        margin-bottom: -20px;
+        left: -2vw;
+        top: -4vh;
+    }
+
+    #forgotPsw{
+        position: relative;
+        width: 170px; right: -10vw;
+        height: 30px; top: 30.4%;
+        font-size: 18px;
+        color: rgb(252, 72, 8);
+    }
+
+    #signUp{
+        width: 250px; 
+        height: 45px; 
+        top: -4vh;
+        font-size: 18px;
+        color: rgb(252, 72, 8);
+    }
+  }
