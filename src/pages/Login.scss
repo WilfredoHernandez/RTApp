@@ -233,41 +233,47 @@
         font-size: 16px;
         color: rgb(252, 72, 8);
     }
-}
-
-/*Media query to adapt design to screens with min-height of 800px*/
-  @media screen and (min-height: 800px) {
-
-    .header{
-        position: relative;
-        width: 8em; height: 23%;
-        top: 21.5%; right: 150%;
-        bottom: 0px; left: 0.3em;
-        color: #fc4b08;
-        font-size: 80px;
-    }
-
-    #forgotPsw{
-        position: relative;
-        width: 160px; right: -5.5%;
-        height: 30px; top: 30.4%;
-        font-size: 18px;
-        color: rgb(252, 72, 8);
-    }
-
-    #signUp{
-        position: relative;
-        width: 170px; left: 18%;
-        height: 45px; top: 40%;
-        font-size: 18px;
-        color: rgb(252, 72, 8);
-    }
 
     #signUp{
         position: relative;
         width: 200px; left: 16%;
         height: 45px; top: 35%;
         font-size: 16px;
+        color: rgb(252, 72, 8);
+    }
+}
+
+/*Media query to adapt design to screens with min-height of 800px*/
+  @media screen and (min-height: 800px) {
+
+    .header{
+        width: 10em; 
+        top: 21.5%; 
+        right: 150%;
+        bottom: 0px;
+         left: 0.3em;
+        color: #fc4b08;
+        font-size: 80px;
+    }
+
+    .subHeader{
+        font-size: 20px;
+        margin-bottom: -20px;
+
+    }
+
+    #forgotPsw{
+        position: relative;
+        width: 170px; right: -5.5%;
+        height: 30px; top: 30.4%;
+        font-size: 18px;
+        color: rgb(252, 72, 8);
+    }
+
+    #signUp{
+        width: 170px; left: 18%;
+        height: 45px; top: 40%;
+        font-size: 18px;
         color: rgb(252, 72, 8);
     }
   }
