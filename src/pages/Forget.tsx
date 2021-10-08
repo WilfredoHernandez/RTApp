@@ -5,7 +5,7 @@ const Forget: React.FC = () => {
     return (
 
       <IonPage>    
-        <IonContent class="ion-padding" id="background">
+        <IonContent class="ion-text-center" id="background">
 
         <div className = "flechaIr">
             <IonButtons>
@@ -15,31 +15,29 @@ const Forget: React.FC = () => {
             </IonButtons>
         </div>
 
-        <div className = "text1">
+        <div className = "header">
             <strong> Forgot your password? </strong>
         </div>
 
-        <div className = "text2">
+        <div className = "subHeader">
             <p> Please enter the email address you´d like your password reset information sent to: </p>
         </div>
 
-        <div className="textrequest">
-            <p>Enter email address</p>
-        </div>
+        <div id ="requestContainer">
+            <p id = "requestText">Enter email address</p>
 
-            <IonInput 
-                className="request"
-                placeholder="">
+            <IonInput id ="requestInput">
             </IonInput>
-  
-            <IonButton className="ion-text-center ion-margin" 
-                       id="requestbutton" >Request reset</IonButton>
-        
-            <IonButton className="ion-text-center ion-margin" 
-                        id="backlogin" 
+        </div>
+            <IonButton className="ion-margin" 
+                       id="requestButton" >Request reset</IonButton>
+
+            <div id = "footer">
+            <IonButton className="ion-margin" 
+                        id="backLogin" 
                         routerLink="/Home" 
                         fill="clear" ><p>Back to <span>login</span></p></IonButton>
-
+            </div>
             </IonContent>       
         </IonPage>
 

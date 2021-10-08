@@ -10,44 +10,57 @@
   .flechaIr{
       position: relative;
       width: 46%; height: 5%;
-      left: -50px; top: 10px;
+      left: -50px; top: 30px;
       transform: scalex(-1);  
   }
   
-  .text1{
+  .header{
       position: relative;
       width: 8em; height: 23%;
-      top: 6.5%; right: 150%;
+      top: 9.5%; right: 150%;
       bottom: 0px; left: 0.7em;
       color: #fc4b08;
       font-size: 43px;
       font-weight: 900;
       text-shadow: 0px 1px, 1px 0px;
+      text-align: start;
+      padding-left: 12px;
   }
   
-  .text2{
+  .subHeader{
       position: relative;
-      width: 15em; height: 2.5em;
+      width: 17em; height: 2.5em;
       top: -7px; right: 150%;
        left: 2em;
       color: #fc4b08;
-      font-size: 18px;
+      font-size: 17.5px;
+      text-align: start;
+      padding-left: 9px;
+      padding-top: 11px;
+      line-height: 1.4;
+  }
+
+  #requestContainer {
+      text-align: start;
+      padding-left: 10px;
+      margin-top: 75px;
   }
   
-  .textrequest{
+  #requestText{
       position: relative;
       width: 16em; height: 2em;
       top: 7%; right: 150%;
       bottom: auto; left: 9%;
       font-size: 18px;
-      color: #999;
+      color: #bbb;
+      padding-top: 15px;
   
   }
   
-  .request{
+  #requestInput{
       position: relative;
-      width: 75%; left: 9%;
-      height: 30px; top: 8%;
+      width: 75%; left: 8%;
+      height: 37px; top: 8%;
       border-radius: 15px;
       border-width: 1px;
       max-width: 70vw;
@@ -56,81 +69,70 @@
       --padding-start: 16px;
   }
   
-  #requestbutton{
-      position: relative;
-      width: 150px; left: 25%;
-      height: 30px; top: 15%;
+  #requestButton{
+      width: 135px; 
+      height: 37px; 
       font-size: 18px;
       font-style: italic;
       --background: #fc4b08;
       --padding-top: 5px;
-      --border-radius: 13px;
+      --border-radius: 15px;
+      margin-top: 8vh;
   }
   
-  #backlogin{
-      position: relative;
-      width: 150px; left: -20.5%;
-      height: 30px; top: 43.5%;
+  #backLogin{
+      width: 150px; 
+      height: 30px; 
       font-size: 18px;
       color: #fc4b08;
   }
 
-  #backlogin>p>span {
+  #backLogin>p>span {
       font-weight: 900;
       font-style: italic;
   }
 
-   /* Media query to adapt design to screebs with min-height of 375px*/
-   @media screen and (max-width: 375px) {
-    .flechaIr{
-        position: relative;
-        width: 46%; height: 5%;
-        left: -50px; top: 2px;
-        transform: scalex(-1);  
-    }
+  #footer {
+    margin-top: 18vh;
+  }
 
-    .text1{
-        position: relative;
-        width: 8em; height: 21.7%;
-        top: 6.5%; right: 150%;
-        bottom: 0px; left: 0.7em;
-        color: #fc4b08;
-        font-size: 39px;
-    }
-    
-    .text2{
-        position: relative;
-        width: 15em; height: 2.5em;
-        top: 0.6px; right: 150%;
-        left: 2em;
-        color: #fc4b08;
-        font-size: 16.18px;
-    }
+/* Media query to adapt design to screebs with max-width of 375px*/
+@media screen and (max-width: 375px) {
+  .flechaIr {
+    left: -37px;
+    top: 24px;
+    height: 3%;
+    width: 42%;
+  }
 
-    .textrequest{
-        position: relative;
-        width: 16em; height: 2em;
-        top: 7%; right: 150%;
-        bottom: auto; left: 9%;
-        font-size: 16.18px;
-        color: #b3b3b3;   
-    }
+  .header {
+    font-size: 38px;
+    margin-top: 13px;
+  }
 
-    #requestbutton{
-        position: relative;
-        width: 125px; left: 25%;
-        height: 32px; top: 15%;
-        font-size: 16.18px;
-        --background: rgb(252, 72, 8);
-    }
+  .subHeader {
+    font-size: 15px;
+    padding-top: 13px;
+  }
 
-    #backlogin{
-        position: relative;
-        width: 150px; left: -23%;
-        height: 30px; top: 42.7%;
-        font-size: 16.18px;
-        color: rgb(252, 72, 8);
-    }
+  #requestText {
+    font-size: 15px;
+    padding-top: 11px;
+  }
+
+  #requestInput {
+    height: 32px;
+  }
+
+  #requestButton {
+    width: 120px;
+    height: 33px;
+    font-size: 16px;
+  }
+
+  #backLogin {
+    font-size: 15px;
+  }
 
 }
 
