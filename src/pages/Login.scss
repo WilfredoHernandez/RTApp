@@ -193,16 +193,20 @@
         font-size: 18px;
     }
     
-    .requestUsr{
-        position: relative;
-        width: 79%; left: 5%;
-        height: 35px; top: 5%;
-        border-radius: 20px;
-        border-width: 10px;
-        background-color: #b3b3b3;
-        opacity: .4;
-        font-size: 16px;
-        color: rgb(48, 48, 48); 
+    .loginInput{
+        max-width: 70vw; 
+        max-height: 35px; 
+        border-radius: 15px;
+        border-width: 1px;
+        --color: #999;
+        --background: rgba(68, 68, 68, .23); 
+        font-family: 'Nexa';
+        --padding-start: 16px;
+        --padding-top: 15px; 
+        margin: 25px 0;
+        left: -6vw;
+    }
+
     }
   
     .requestPsw{
@@ -219,7 +223,7 @@
     #loginButton{
         position: relative;
         width: 100px; left: 0%;
-        height: 35px; top: 18%;
+        height: 35px; top: 15%;
         font-size: 16px;
         font-style: normal;
         --background: rgb(252, 72, 8);
@@ -228,12 +232,22 @@
 
     #forgotPsw{
         position: relative;
-        width: 150px; right: -2%;
+        width: 300px; right: -2%;
         height: 30px; top: 31%;
         font-size: 16px;
         color: rgb(252, 72, 8);
     }
-}
+
+    #signUp {
+        margin-top: 15%;
+        width: 250px;
+        left: 9%;
+        height: 45px;
+        top: 12%;
+        font-size: 18px;
+        color: #fc4808;
+    }
+
 
 /*Media query to adapt design to screens with min-height of 800px*/
   @media screen and (min-height: 800px) {
@@ -263,11 +277,5 @@
         color: rgb(252, 72, 8);
     }
 
-    #signUp{
-        position: relative;
-        width: 200px; left: 16%;
-        height: 45px; top: 35%;
-        font-size: 16px;
-        color: rgb(252, 72, 8);
-    }
+
   }
