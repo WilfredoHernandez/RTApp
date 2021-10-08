@@ -15,11 +15,11 @@ const Forget: React.FC = () => {
             </IonButtons>
         </div>
 
-        <div className = "header">
+        <div className = "headerB">
             <strong> Forgot your password? </strong>
         </div>
 
-        <div className = "subHeader">
+        <div className = "subHeaderB">
             <p> Please enter the email address you´d like your password reset information sent to: </p>
         </div>
 

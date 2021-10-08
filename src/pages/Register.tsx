@@ -2,7 +2,8 @@
 import { IonContent, 
          IonPage,  
          IonInput, 
-         IonButton,   
+         IonButtons,  
+         IonButton, 
          IonCheckbox,
          IonImg
         } from '@ionic/react';
@@ -27,12 +28,15 @@ const Register: React.FC = () => {
   //Main structure of the view
   return (
     <IonPage>
-      <IonContent className = "ion-text-center" id = "background">
-        <div id = "imgContainer">
-          {/* Ionic component to set the image of an arrow as the back button */}
-          <IonImg src = "../assets/img/flechaIr.png" id = "arrowBack"/>
+      <IonContent class= "ion-text-center" id = "background">
+      <div className = "flechaIr">
+            <IonButtons>
+                <IonButton routerLink="/Login">
+                    <IonImg src="..\..\assets\flechaIr.png"/>
+                </IonButton>
+            </IonButtons>
         </div>
-        <h1>Sign Up</h1>
+        <h1 className="headerC" >Sign Up</h1>
           {/* Creating a form with all the required inputs */}
           <div id = "form">
             <IonInput

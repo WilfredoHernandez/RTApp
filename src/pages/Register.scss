@@ -11,6 +11,25 @@
   flex-direction: column;
 }
 
+.flechaIr{
+  position: relative;
+  width: 46%; height: 5%;
+  left: -50px; top: 30px;
+  transform: scalex(-1);  
+}
+
+.headerC{
+  position: relative;
+  width: 8em; height: 6%; right: 50%;
+  bottom: 0px; left: 0.7em;
+  color: #fc4b08;
+  font-size: 43px;
+  font-weight: 900;
+  text-shadow: 0px 1px, 1px 0px;
+  text-align: start;
+  margin-left: 18%;
+}
+
 #inputStyle {
     --background: rgba(68, 68, 68, .23);
     border-radius: 15px;
