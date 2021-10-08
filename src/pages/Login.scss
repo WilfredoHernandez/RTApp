@@ -91,11 +91,11 @@
         margin-top: 12vh;
         font-size: 80px;
         text-align: left;
-        padding-left: 10px;      
+        padding-left: 30px;      
     }
 
     .subHeader{
-        padding-left: 10px;
+        padding-left: 30px;
     }
 
     .loginInput{
@@ -169,7 +169,6 @@
 @media screen and (max-width: 375px) {
      
     .header{
-        position: relative;
         width: 8em; height: 23%;
         top: 10%; right: 150%;
         bottom: 0px; left: 0.3em;
@@ -178,11 +177,11 @@
     }
     
     .subHeader{
-        position: relative;
         width: 15em; height: 2.5em;
         top: 1%; left: 24px;
         color: #fc4b08;
         font-size: 18px;
+        margin-top: -60px;
     }
     
     .loginInput{
@@ -214,7 +213,7 @@
     
     #loginButton{
         position: relative;
-        width: 100px; left: 0%;
+        width: 100px; left: 1.5vw;
         height: 35px; top: 15%;
         font-size: 16px;
         font-style: normal;
@@ -241,7 +240,7 @@
     }
 
 /*Media query to adapt design to screens with min-height of 800px*/
-  @media screen and (min-height: 800px) {
+@media screen and (min-height: 800px) {
 
     .header{
         width: 80vw; 
@@ -262,7 +261,7 @@
 
     #forgotPsw{
         position: relative;
-        width: 170px; right: -5.5%;
+        width: 170px; right: -10vw;
         height: 30px; top: 30.4%;
         font-size: 18px;
         color: rgb(252, 72, 8);
@@ -274,6 +273,5 @@
         top: -4vh;
         font-size: 18px;
         color: rgb(252, 72, 8);
-        margin-right: 30vw;
     }
   }
