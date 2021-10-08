@@ -24,17 +24,20 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-      <Route exact path="/">
-          <Redirect to="/Login" />
-        </Route>
-        <Route exact path="/Login" >
-          <Login />
-        </Route>
-      </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
+  <IonReactRouter>
+    <IonRouterOutlet>
+    <Route exact path="/">
+        <Redirect to="/Login" />
+      </Route>
+      <Route exact path="/Login" >
+        <Login />
+      </Route>
+      <Route exact path="/Register">
+        <Register />
+      </Route>
+    </IonRouterOutlet>
+  </IonReactRouter>
+</IonApp>
 );
 
 export default App;
