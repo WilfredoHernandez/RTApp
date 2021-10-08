@@ -31,7 +31,7 @@ const Login: React.FC = () => {
                         fill="clear" > Forgot Password? </IonButton>
                 </div>
                 <IonButton id="signUp"
-                    routerLink="/Registry"
+                    routerLink="/Register"
                     fill="clear" ><p>New here? <span>Sign Up!</span></p></IonButton>
 
             </IonContent>

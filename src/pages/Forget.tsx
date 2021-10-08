@@ -9,7 +9,7 @@ const Forget: React.FC = () => {
 
         <div className = "flechaIr">
             <IonButtons>
-                <IonButton routerLink="/Home">
+                <IonButton routerLink="/Login">
                     <IonImg src="..\..\assets\flechaIr.png"/>
                 </IonButton>
             </IonButtons>
@@ -34,7 +34,7 @@ const Forget: React.FC = () => {
             <div id = "footer">
             <IonButton className="ion-margin" 
                         id="backLogin" 
-                        routerLink="/Home" 
+                        routerLink="/Login" 
                         fill="clear" ><p>Back to <span>login</span></p></IonButton>
             </div>
             </IonContent>       

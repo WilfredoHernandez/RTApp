@@ -8,6 +8,7 @@ import { IonContent,
         } from '@ionic/react';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './Register.scss'
 
 //Declaration of the variables that will be used
 const Register: React.FC = () => {
