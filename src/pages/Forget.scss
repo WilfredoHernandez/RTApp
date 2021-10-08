@@ -238,129 +238,118 @@
 
     /*Media query to adapt design to screens with min-height of 1024px*/
     @media screen and (min-width: 1024px){
-        #backlogin {
-            position: relative;
-            width: 1160px; left: -8.5%;
-            height: 40px; top: 30.5%;
-            color: rgb(252, 72, 8);
+        .flechaIr {
+            left: -37px;
+            top: 85px;
+            height: 5%;
+            width: 25%;
+          }
+        
+          .header {
+            font-size: 83px;
+            margin-top: 15px;
+            padding-left: 20px;
+            
+          }
+        
+          .subHeader {
+            font-size: 33px;
+            padding-top: 20px;
+          }
+          
+          #requestContainer {
+            margin-top:150px;
+            padding-left: 5px;
+            
+          }
+      
+          #requestText {
             font-size: 35px;
-        }
-        .flechaIr{
-            position: relative;
-            width: 25%; height: 5%;
-            left: -50px; top: 70px;
-            transform: scalex(-1);  
-        }
-        .text1{
-            position: relative;
-            width: 8em; height: 23%;
-            top: 6.5%; right: 155%;
-            bottom: 0px; left: 0.7em;
-            color: #fc4b08;
-            font-size: 100px;
-        }
+            padding-top: 30px;
+          }
         
-        .text2{
-            position: relative;
-            width: 15em; height: 2.5em;
-            top: 20px; right: 150%;
-             left: 2em;
-            color: #fc4b08;
-            font-size: 40px;
-        }
-        .textrequest{
-            position: relative;
-            width: 16em; height: 2em;
-            top: 7%; right: 150%;
-            bottom: auto; left: 10%;
-            color: #b3b3b3;
-            font-size: 40px;
-        
-        }
-        
-        .request{
-            position: relative;
-            width: 75%; left: 9%;
-            height: 80px; top: 8%;
+          #requestInput {
+            height: 75px;
+            font-size: 30px;
+            margin-top: -12px;
             border-radius: 50px;
-            border-width: 10px;
-            background-color: #b3b3b3;
-            opacity: .4;
-            color: rgb(48, 48, 48);
+          }
         
+          #requestButton {
+            width: 300px;
+            height: 80px;
+            font-size: 40px;
+            margin-top: 12vh;
+            --border-radius: 100px;
+            
+          }
         
-        }
-        
-        #requestbutton{
-            position: relative;
-            width: 315px; left: 34%;
-            height: 60px; top: 17%;
-            --background: rgb(252, 72, 8);
-            font-size: 38px;
-        }
+          #backLogin {
+            font-size: 40px; 
+            margin-top: -80px;
+            width: 300px; 
+            height: 100px;
+           
+            
+          }
 }
 /*Media query to adapt design to screens with min-width of 768px and max-height 1024px*/
 @media screen and (min-width: 768px) and (max-height: 1024px){
-    #backlogin {
-        position: relative;
-        width: 1160px; left: -27.5%;
-        height: 40px; top: 32.5%;
-        color: rgb(252, 72, 8);
-        font-size: 26px;
-    }
-    .flechaIr{
-        position: relative;
-        width: 32%; height: 7%;
-        left: -60px; top: 54px;
-        transform: scalex(-1);  
-    }
-    .text1{
-        position: relative;
-        width: 8em; height: 23%;
-        top: 8.5%; right: 155%;
-        bottom: 0px; left: 0.8em;
-        color: #fc4b08;
-        font-size: 55px;
-    }
+    .flechaIr {
+        left: -27px;
+        top: 85px;
+        height: 5%;
+        width: 30%;
+      }
     
-    .text2{
-        position: relative;
-        width: 15em; height: 2.5em;
-        top: 5px; right: 150%;
-         left: 2em;
-        color: #fc4b08;
-        font-size: 25px;
-    }
-    .textrequest{
-        position: relative;
-        width: 16em; height: 2em;
-        top: 7%; right: 150%;
-        bottom: auto; left: 8%;
-        color: #b3b3b3;
-        font-size: 25px;
+      .header {
+        font-size: 75px;
+        margin-top: 15px;
+        padding-left: 10px;
+        
+      }
     
-    }
+      .subHeader {
+        font-size: 28px;
+        padding-top: 60px;
+      }
+      
+      #requestContainer {
+        margin-top:150px;
+        padding-left: 5px;
+        
+      }
+  
+      #requestText {
+        font-size: 28px;
+        padding-top: 30px;
+        margin-bottom: 45px;
+      }
     
-    .request{
-        position: relative;
-        width: 75%; left: 7%;
-        height: 50px; top: 8%;
+      #requestInput {
+        height: 65px;
+        font-size: 30px;
+        margin-top: -12px;
         border-radius: 50px;
-        border-width: 10px;
-        background-color: #b3b3b3;
-        opacity: .4;
-        color: rgb(48, 48, 48);
+      }
     
+      #requestButton {
+        width: 270px;
+        height: 70px;
+        font-size: 35px;
+        margin-top: 8vh;
+        --border-radius: 90px;
+        
+      }
     
-    }
-    
-    #requestbutton{
-        position: relative;
-        width: 250px; left: 33%;
-        height: 45px; top: 17%;
-        --background: rgb(252, 72, 8);
-        font-size: 22px;
-    }
+      #backLogin {
+        font-size: 28px; 
+        margin-top: -120px;
+        width: 300px; 
+        height: 100px;
+       
+        
+      }
     
 }
 }
