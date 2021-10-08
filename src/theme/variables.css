@@ -237,15 +237,15 @@ http://ionicframework.com/docs/theming/ */
 
 @font-face {
   font-family: 'Nexa';
-  src: url('../fonts/NexaBook.otf');
+  src: url('../fonts/NexaRegular.otf');
 }
 
 @font-face {
   font-family: 'Nexa';
   src: url('../fonts/NexaHeavy.otf');
-  font-weight: 900px;
+  font-weight: 900;
 }
 
-*{
+* {
   font-family: 'Nexa';
 }
