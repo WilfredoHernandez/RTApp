@@ -1,83 +1,98 @@
 #background{
     --background: none;
-    background-image: url('../components/backgrounds/whiteBg.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url('../components/backgrounds/whiteBg.png') no-repeat center center / cover;
+    --overflow: hidden;
   }    
   
-  .text1{
-      position: relative;
-      width: 8em; height: 23%;
-      top: 21.5%; right: 150%;
-      bottom: 0px; left: 0.3em;
+  .header{
+      margin-top: 24vh;
       color: #fc4b08;
       font-size: 80px;
+      font-family: 'Nexa';
+      text-align: left;
+      padding-left: 40px;
+      
   }
   
-  .text2{
-      position: relative;
-      width: 15em; height: 2.5em;
-      top: 70px; right: 150%;
-       left: 1.6em;
+  .subHeader{
+      width: 65vw; 
+      height: 10vh;
       color: #fc4b08;
       font-size: 20px;
+      text-align: left;
+      padding-left: 44px;
+      margin-bottom: -10px;
+      margin-top: -3vh;
   }
   
-  .requestUsr{
-      position: relative;
-      width: 79%; left: 5%;
-      height: 35px; top: 16.5%;
-      border-radius: 20px;
-      border-width: 10px;
-      background-color: #b3b3b3;
-      opacity: .4;
-      color: rgb(48, 48, 48); 
+  .loginInput{
+      max-width: 70vw; 
+      max-height: 35px; 
+      border-radius: 15px;
+      border-width: 1px;
+      --color: #999;
+      --background: rgba(68, 68, 68, .23); 
+      font-family: 'Nexa';
+      --padding-start: 16px;
+      --padding-top: 15px; 
+      margin: 25px 0;
+      left: -6vw;
   }
 
-  .requestPsw{
-    position: relative;
-    width: 79%; left: 5%;
-    height: 35px; top: 22.4%;
-    border-radius: 20px;
-    border-width: 10px;
-    background-color: #b3b3b3;
-    opacity: .4;
-    color: rgb(48, 48, 48); 
-}
+  #loginForm .loginInput {
+      text-align: left;
+  }
   
-  #loginbutton{
+  #loginButton{
       position: relative;
       width: 110px; left: 2%;
       height: 35px; top: 30.4%;
       font-size: 25px;
       --background: rgb(252, 72, 8);
+      --border-radius: 15px;
+      --padding-top: 8px; 
+      
   }
   
   #forgotPsw{
       position: relative;
-      width: 150px; right: -11.5%;
-      height: 30px; top: 30.4%;
+      width: 180px; right: -11.5%;
+      height: 30px; top: 32.4%;
+      font-size: 18px;
+      color: rgb(252, 72, 8);
+      padding-top: 10px;
+  }
+
+  #signUp{
+      margin-top: 15vh;
+      width: 170px; 
+      height: 45px; 
       font-size: 18px;
       color: rgb(252, 72, 8);
   }
 
-  #signUp{
-      position: relative;
-      width: 170px; left: 25%;
-      height: 45px; top: 40%;
-      font-size: 18px;
-      color: rgb(252, 72, 8);
+  #loginForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #optionsContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 27px;
+    margin-top: 4vh;
   }
 
 /*Media query to adapt design to screens with min-height of 320px*/
 @media screen and (max-width: 320px){
-    .text1{
+    .header{
       top: 22.1%;
       font-size: 60px;
     }
 
-    .text2{
+    .subHeader{
         top: 59px;
         font-size: 13.5px;
     }
@@ -93,7 +108,7 @@
 
     }
 
-    #loginbutton{
+    #loginButton{
         width: 90px; left: 0%;
         height: 28px; top: 29.5%;
         font-size: 18px;
@@ -113,12 +128,12 @@
 }
 /*Media query to adapt design to screens with min-width of 1024px*/
 @media screen and (min-width: 1024px){
-    .text1{
+    .header{
         top: 12%;
         font-size: 200px;
       }
   
-      .text2{
+      .subHeader{
           top: 4%;
           font-size: 45px;
       }
@@ -139,7 +154,7 @@
           border-width: 10px;
       }
   
-      #loginbutton{
+      #loginButton{
           width: 30%; left: 70px;
           height: 80px; top: 24%;
           font-size: 50px;
@@ -161,7 +176,7 @@
 /* Media query to adapt design to screebs with max-width of 375px*/
 @media screen and (max-width: 375px) {
      
-    .text1{
+    .header{
         position: relative;
         width: 8em; height: 23%;
         top: 10%; right: 150%;
@@ -170,7 +185,7 @@
         font-size: 65px;
     }
     
-    .text2{
+    .subHeader{
         position: relative;
         width: 15em; height: 2.5em;
         top: 1%; left: 24px;
@@ -201,7 +216,7 @@
       color: rgb(48, 48, 48); 
   }
     
-    #loginbutton{
+    #loginButton{
         position: relative;
         width: 100px; left: 0%;
         height: 35px; top: 18%;
@@ -209,7 +224,7 @@
         font-style: normal;
         --background: rgb(252, 72, 8);
     }
-}
+
 
     #forgotPsw{
         position: relative;
@@ -217,14 +232,13 @@
         height: 30px; top: 31%;
         font-size: 16px;
         color: rgb(252, 72, 8);
-<<<<<<< HEAD
+    }
 }
-
 
 /*Media query to adapt design to screens with min-height of 800px*/
   @media screen and (min-height: 800px) {
 
-    .text1{
+    .header{
         position: relative;
         width: 8em; height: 23%;
         top: 21.5%; right: 150%;
@@ -248,10 +262,6 @@
         font-size: 18px;
         color: rgb(252, 72, 8);
     }
-=======
->>>>>>> e135a7b426d0be3c76e7fd8d5298561b752b8634
-
-}
 
     #signUp{
         position: relative;
@@ -259,4 +269,5 @@
         height: 45px; top: 35%;
         font-size: 16px;
         color: rgb(252, 72, 8);
-}
+    }
+  }

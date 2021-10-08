@@ -5,39 +5,35 @@ const Login: React.FC = () => {
     return (
 
       <IonPage>    
-        <IonContent class="ion-padding" id="background">
+        <IonContent class="ion-text-center" id="background">
 
-        <div className = "text1">
-            <strong> Hello! </strong>
-        </div>
+            <div className = "header">
+                <strong> Hello! </strong>
+            </div>
 
-        <div className = "text2">
-            <p> Any tips regarding the application..... </p>
-        </div>
+            <div className = "subHeader">
+                <p> Any tips regarding the application..... </p>
+            </div>
+            <div id = "loginForm">
+                <IonInput className="loginInput"
+                          placeholder="Username">
+                </IonInput>
 
-            <IonInput 
-                className="requestUsr"
-                placeholder="  Username">
-            </IonInput>
-
-            <IonInput 
-                className="requestPsw"
-                placeholder="  Password">
-            </IonInput>
-  
-            <IonButton className="ion-text-center ion-margin" 
-                       id="loginbutton" 
-                       shape="round" >Login</IonButton>
-        
-            <IonButton className="ion-text-center ion-margin" 
-                        id="forgotPsw" 
-                        routerLink="/Forget" 
-                        fill="clear" > Forgot Password? </IonButton>
-
-            <IonButton className="ion-text-center ion-margin" 
-                        id="signUp" 
-                        routerLink="/Registry" 
-                        fill="clear" >New here? Sign Up!</IonButton>
+                <IonInput className="loginInput"
+                          placeholder="Password">
+                </IonInput>
+            </div>
+            <div id = "optionsContainer">
+                <IonButton id="loginButton" >Login</IonButton>
+    
+                <IonButton id="forgotPsw" 
+                           routerLink="/Forget" 
+                           fill="clear" > Forgot Password? </IonButton>
+            </div>  
+            <IonButton id="signUp" 
+                       routerLink="/Registry" 
+                       fill="clear" ><p>New here? <span>Sign Up!</span></p></IonButton>
+                       
             </IonContent>       
         </IonPage>
 
