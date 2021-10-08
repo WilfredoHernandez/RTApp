@@ -85,45 +85,37 @@
     margin-top: 4vh;
   }
 
-/*Media query to adapt design to screens with min-height of 320px*/
+/*Media query to adapt design to screens with max-width of 320px*/
 @media screen and (max-width: 320px){
     .header{
-      top: 22.1%;
-      font-size: 60px;
+        margin-top: 12vh;
+        font-size: 80px;
+        text-align: left;
+        padding-left: 10px;      
     }
 
     .subHeader{
-        top: 59px;
-        font-size: 13.5px;
+        padding-left: 10px;
     }
 
-    .requestUsr{
-        width: 79%;
-        height: 28px;
-    }
-
-    .requestPsw{
-        width: 79%;
-        height: 28px; top: 21.9%;
-
+    .loginInput{
+        margin: 21px 0;
     }
 
     #loginButton{
-        width: 90px; left: 0%;
-        height: 28px; top: 29.5%;
-        font-size: 18px;
+        font-size: 20px;
     }
 
-    #forgotPsw{
-        left: 40%;
-        top: 18.3%;
-        font-size: 13.5px;
-    }
-  
-    #signUp{
-        left: 16%; 
-        top: 27%;
-        font-size: 13.5px;
+    #optionsContainer {
+        align-items: center;
+        display: flex;
+        padding-left: 27px;
+        margin-top: 3vh;
+      }
+
+      #signUp{
+        margin-top: -40vh;
+        font-size: 16px;
     }
 }
 /*Media query to adapt design to screens with min-width of 1024px*/
