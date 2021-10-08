@@ -234,3 +234,18 @@ http://ionicframework.com/docs/theming/ */
     --ion-card-background: #1e1e1e;
   }
 }
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaBook.otf');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaHeavy.otf');
+  font-weight: 900px;
+}
+
+*{
+  font-family: 'Nexa';
+}
