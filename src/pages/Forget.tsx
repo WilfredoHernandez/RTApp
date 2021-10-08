@@ -26,8 +26,7 @@ const Forget: React.FC = () => {
         <div id ="requestContainer">
             <p id = "requestText">Enter email address</p>
 
-            <IonInput id ="requestInput">
-            </IonInput>
+            <IonInput id ="requestInput"></IonInput>
         </div>
             <IonButton className="ion-margin" 
                        id="requestButton" >Request reset</IonButton>
