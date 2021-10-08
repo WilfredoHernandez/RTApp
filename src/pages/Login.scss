@@ -247,11 +247,11 @@
   @media screen and (min-height: 800px) {
 
     .header{
-        width: 10em; 
-        top: 21.5%; 
+        width: 80vw; 
+        top: 0vh; 
         right: 150%;
         bottom: 0px;
-         left: 0.3em;
+        left: -2vw;
         color: #fc4b08;
         font-size: 80px;
     }
@@ -259,7 +259,8 @@
     .subHeader{
         font-size: 20px;
         margin-bottom: -20px;
-
+        left: -2vw;
+        top: -4vh;
     }
 
     #forgotPsw{
@@ -271,9 +272,11 @@
     }
 
     #signUp{
-        width: 170px; left: 18%;
-        height: 45px; top: 40%;
+        width: 250px; 
+        height: 45px; 
+        top: -4vh;
         font-size: 18px;
         color: rgb(252, 72, 8);
+        margin-right: 30vw;
     }
   }
