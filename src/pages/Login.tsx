@@ -7,11 +7,11 @@ const Login: React.FC = () => {
         <IonPage>
             <IonContent class="ion-text-center" id="background">
 
-                <div className="headerA">
+                <div className="loginHeader">
                     <strong> Hello! </strong>
                 </div>
 
-                <div className="subHeaderA">
+                <div className="loginSubheader">
                     <p> Any tips regarding the application..... </p>
                 </div>
                 <div id="loginForm">

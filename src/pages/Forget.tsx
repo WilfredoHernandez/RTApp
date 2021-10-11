@@ -15,11 +15,11 @@ const Forget: React.FC = () => {
             </IonButtons>
         </div>
 
-        <div className = "headerB">
+        <div className = "forgetHeader">
             <strong> Forgot your password? </strong>
         </div>
 
-        <div className = "subHeaderB">
+        <div className = "forgetSubheader">
             <p> Please enter the email address you´d like your password reset information sent to: </p>
         </div>
 
@@ -31,7 +31,7 @@ const Forget: React.FC = () => {
             <IonButton className="ion-margin" 
                        id="requestButton" >Request reset</IonButton>
 
-            <div id = "footer">
+            <div id = "forgetFooter">
             <IonButton className="ion-margin" 
                         id="backLogin" 
                         routerLink="/Login" 

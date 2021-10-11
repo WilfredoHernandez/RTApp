@@ -36,7 +36,7 @@ const Register: React.FC = () => {
                 </IonButton>
             </IonButtons>
         </div>
-        <h1 className="headerC" >Sign Up</h1>
+        <h1 className="RegisHeader" >Sign Up</h1>
           {/* Creating a form with all the required inputs */}
           <div id = "form">
             <IonInput

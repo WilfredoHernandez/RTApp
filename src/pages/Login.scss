@@ -4,7 +4,7 @@
     --overflow: hidden;
   }    
   
-  .headerA{
+  .loginHeader{
       margin-top: 24vh;
       color: #fc4b08;
       font-size: 80px;
@@ -14,7 +14,7 @@
       
   }
   
-  .subHeaderA{
+  .loginSubheader{
       width: 65vw; 
       height: 10vh;
       color: #fc4b08;
@@ -87,14 +87,14 @@
 
 /*Media query to adapt design to screens with max-width of 320px*/
 @media screen and (max-width: 320px){
-    .header{
+    .loginHeader{
         margin-top: 12vh;
         font-size: 80px;
         text-align: left;
         padding-left: 30px;      
     }
 
-    .subHeader{
+    .loginSubheader{
         padding-left: 30px;
     }
 
@@ -120,12 +120,12 @@
 }
 /*Media query to adapt design to screens with min-width of 1024px*/
 @media screen and (min-width: 1024px){
-    .header{
+    .loginHeader{
         top: 12%;
         font-size: 200px;
       }
   
-      .subHeader{
+      .loginSubheader{
           top: 4%;
           font-size: 45px;
       }
@@ -168,7 +168,7 @@
 /* Media query to adapt design to screebs with max-width of 375px*/
 @media screen and (max-width: 375px) {
      
-    .header{
+    .loginHeader{
         width: 8em; height: 23%;
         top: 10%; right: 150%;
         bottom: 0px; left: 0.3em;
@@ -176,7 +176,7 @@
         font-size: 65px;
     }
     
-    .subHeader{
+    .loginSubheader{
         width: 15em; height: 2.5em;
         top: 1%; left: 24px;
         color: #fc4b08;
@@ -242,7 +242,7 @@
 /*Media query to adapt design to screens with min-height of 800px*/
 @media screen and (min-height: 800px) {
 
-    .header{
+    .loginHeader{
         width: 80vw; 
         top: 0vh; 
         right: 150%;
@@ -252,7 +252,7 @@
         font-size: 80px;
     }
 
-    .subHeader{
+    .loginSubheader{
         font-size: 20px;
         margin-bottom: -20px;
         left: -2vw;
