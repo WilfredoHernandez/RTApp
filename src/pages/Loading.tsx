@@ -1,7 +1,6 @@
 import { IonPage, IonContent} from "@ionic/react";
 import React, {useEffect} from "react";
 import "./Loading.scss";
-import {Redirect} from "react-router-dom";
 
 const Loading: React.FC = () => {
 
