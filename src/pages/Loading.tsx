@@ -1,28 +1,25 @@
-import { IonPage, IonContent } from "@ionic/react";
+import { IonPage, IonContent} from "@ionic/react";
+import React, {useEffect} from "react";
+import "./Loading.scss";
+import {Redirect} from "react-router-dom";
 
 const Loading: React.FC = () => {
+
+    useEffect(() => {
+                const timer = setTimeout(() => {
+                window.location.href = "/Login"; 
+                console.log('This will run after 1 second!')
+                }, 4000);
+                
+                return () => clearTimeout(timer);
+    },[]);
 
     return (
         <IonPage> 
             <IonContent id="backgroundLoading">
-
             </IonContent>
         </IonPage>
     );
 };
 
 export default Loading;
-$(document).ready(function() {
-	// Users can skip the loading process if they want.
-	$('.skip').click(function() {
-		$('.overlay, body').addClass('loaded');
-	})
-	
-	// Will wait for everything on the page to load.
-	$(window).bind('load', function() {
-		$('.overlay, body').addClass('loaded');
-		setTimeout(function() {
-			$('.overlay').css({'display':--background})
-		}, 4000)
-	});
-	
