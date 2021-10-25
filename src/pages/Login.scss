@@ -118,6 +118,7 @@
         font-size: 16px;
     }
 }
+
 /*Media query to adapt design to screens with min-width of 1024px*/
 @media screen and (min-width: 1024px){
     .loginHeader{
@@ -243,12 +244,9 @@
 @media screen and (min-width: 360px) and (max-width: 370px){
 
     .loginHeader{
-        width: 80vw; 
-        height: 100px;
-        margin-top: 140px;
-        right: 150%;
+        margin-top: 24.5vh;
         margin-left: -8px;
-        bottom: 0px;
+        margin-bottom: -1vh;
         left: -2vw;
         color: #fc4b08;
         font-size: 80px;
@@ -257,32 +255,79 @@
     .loginSubheader{
         font-size: 20px;
         height: 80px;
-        margin-top: -12px;
+        margin-top: -13.5vh;
+        margin-bottom: -2vh;
         margin-left: -8px;
     }
 
     .loginInput{
+        margin-top: 3.5vh;
         font-size: 18px;
+        max-height: 40px; 
     }
 
     #loginButton{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     #forgotPsw{
         position: relative;
         width: 210px; right: -4vw;
         height: 50px; top: 30.4%;
-        font-size: 15px;
+        font-size: 17px;
         color: rgb(252, 72, 8);
     }
 
     #signUp{
         width: 250px; 
         height: 45px; 
-        margin-top: 16vh;
-        font-size: 16px;
+        margin-top: 14vh;
+        font-size: 17px;
         color: rgb(252, 72, 8);
     }
   }
+
+  @media  screen and (min-height: 915px) {
+    .loginHeader{
+        margin-top: 24.5vh;
+        margin-left: -8px;
+        margin-bottom: -1vh;
+        left: -2vw;
+        color: #fc4b08;
+        font-size: 90px;
+    }
+
+    .loginSubheader{
+        font-size: 23px;
+        width: 300px;
+        margin-top: -2vh;
+    }
+
+    .loginInput{
+        margin-top: 2.5vh;
+        font-size: 18px;
+        max-height: 45px; 
+    }
+
+    #loginButton{
+        height: 40px; 
+        font-size: 24px;
+    }
+
+    #forgotPsw{
+        position: relative;
+        width: 210px; right: -12vw;
+        height: 50px; top: 30.4%;
+        font-size: 21px;
+        color: rgb(252, 72, 8);
+    }
+
+    #signUp{
+        width: 250px; 
+        height: 45px; 
+        margin-top: 17vh;
+        font-size: 21px;
+        color: rgb(252, 72, 8);
+    }
+   }
  
