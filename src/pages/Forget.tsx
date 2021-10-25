@@ -7,7 +7,7 @@ const Forget: React.FC = () => {
       <IonPage>    
         <IonContent class="ion-text-center" id="background">
 
-        <div className = "flechaIr">
+        <div className = "flechaIrForget">
             <IonButtons>
                 <IonButton routerLink="/Login">
                     <IonImg src="..\..\assets\flechaIr.png"/>

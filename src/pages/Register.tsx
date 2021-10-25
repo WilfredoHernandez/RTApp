@@ -29,14 +29,16 @@ const Register: React.FC = () => {
   return (
     <IonPage>
       <IonContent class= "ion-text-center" id = "background">
-      <div className = "flechaIr">
+      <div className = "flechaIrRegistrer">
             <IonButtons>
                 <IonButton routerLink="/Login">
                     <IonImg src="..\..\assets\flechaIr.png"/>
                 </IonButton>
             </IonButtons>
         </div>
-        <h1 className="RegisHeader" >Sign Up</h1>
+        <h1 className="RegisHeader"> 
+        <strong>Sign Up</strong> 
+        </h1>
           {/* Creating a form with all the required inputs */}
           <div id = "form">
             <IonInput
