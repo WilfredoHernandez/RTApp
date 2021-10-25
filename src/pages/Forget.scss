@@ -89,7 +89,7 @@
   font-style: italic;
   }
 
-#footer {
+#forgetFooter {
   margin-top: 18vh;
 }
 
@@ -230,6 +230,7 @@
     font-size: 17px;
     margin-top: 0;
   }
+}
   
 /*Media query to adapt design to screens with min-height of 1024px*/
 @media screen and (min-width: 1024px){
@@ -335,5 +336,5 @@
     width: 300px; 
     height: 100px;  
   }
-  }
+  
 }
