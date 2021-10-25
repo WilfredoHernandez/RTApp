@@ -124,10 +124,11 @@
 }
 
 /* Media query to adapt design to screens with a max-width of 375px */
-@media  screen and (max-width: 375px) {
-  h1 {
-    font-size: 45px;
-    margin-bottom: 20px;
+@media  screen and (min-width: 375px) {
+  .RegisHeader{
+    left: 18px;
+    padding-top: 3vh;
+    margin-bottom: 7vh;
   }
 
   #inputStyle {
@@ -135,54 +136,270 @@
   }
 
   #myCheckbox {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
   }
 }
 
 /* Media query to adapt design to screens with a max-width of 320px */
 @media  screen and (max-width: 320px) {
-  h1 {
-    font-size: 35px;
-    margin-top: 0;
+  #inputStyle {
+    margin: 14px 0;
   }
 
-  #arrowBack {
-    height: 55px;
-    width: 140px;
+  .RegisHeader {
+    left: 25px;
+    font-size: 35px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+
+  .flechaIrRegistrer{
+    width: 40%; height: 4%;
+    left: -25px; top: 25px;
   }
 
   #checkboxTerms {
+    margin-top: -2vh;
     --size: 18px;
   }
 
   #checkboxTerms+p {
-    font-size: 10px;
+    margin-top: -2vh;
+    font-size: 11px;
+  }
+
+  #signupBtn {
+    font-size: 18px;
+    height: 40px;
+    width: 115px;
+    margin-top: -3vh;
+  }
+
+  #footer {
+    font-size: 15px;
+    margin-top: 5vh;
+  }
+}
+
+@media  screen and (min-width: 360px) and (max-width: 370px){
+  #inputStyle {
+    border-radius: 22px;
+    font-size: 17px;
+    margin: 17px;
+    max-height: 40px;
+    max-width: 70vw;
+  }
+
+  .RegisHeader {
+    left: 20px;
+    font-size: 45px;
+    margin-top: 2vh;
+    margin-bottom: 4.5vh;
+  }
+
+  #checkboxTerms {
+    margin-top: -2vh;
+    --size: 18px;
+  }
+
+  #checkboxTerms+p {
+    margin-top: -1.5vh;
+    font-size: 12px;
+  }
+
+  #signupBtn {
+    font-size: 18px;
+    height: 40px;
+    width: 115px;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+  }
+
+  #footer {
+    margin-top: 8vh;
+  }
+}
+
+@media  screen and (max-height: 640px){
+  #inputStyle {
+    margin: 14px 0;
+  }
+
+  #myCheckbox {
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+  }
+
+  #signupBtn {
+    font-size: 18px;
+    height: 40px;
+    width: 115px;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+  }
+
+  #footer {
+    margin-top: 8vh;
+  }
+}
+
+
+@media  screen and (min-width: 400px) and (max-width: 411px){
+  .RegisHeader {
+    left: 40px;
+    font-size: 40px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+  
+  #inputStyle {
+    border-radius: 22px;
+    font-size: 17px;
+    margin: 17px 0;
+    max-height: 40px;
+    max-width: 70vw;
+  }
+
+  #checkboxTerms {
+    margin-top: 2vh;
+    --size: 20px;
+  }
+
+  #checkboxTerms+p {
+    margin-top: 3vh;
+    font-size: 14px;
   }
 
   #signupBtn {
     font-size: 20px;
-    height: 40px;
+    height: 45px;
     width: 125px;
+    margin-top: 2vh;
+    margin-bottom: -3vh;
   }
 
   #footer {
-    margin-top: 3vh;
+    font-size: 17px;
+    margin-top: 10vh;
   }
 }
 
 /* Media query to adapt design to screens with a min-height of 800px */
-@media  screen and (min-height: 800px) {
+@media  screen and (min-height: 800px) and (max-height: 819px){
+  .RegisHeader {
+    left: 18px;
+    font-size: 45px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+  
   #inputStyle {
-    margin: 15px 0;
+    border-radius: 22px;
+    font-size: 17px;
+    margin: 17px 0;
+    max-height: 45px;
+    max-width: 75vw;
   }
 
-  #myCheckbox {
-    margin-bottom: 30px;
-    margin-top: 25px;
+  #checkboxTerms {
+    margin-top: 2vh;
+    --size: 20px;
+  }
+
+  #checkboxTerms+p {
+    margin-top: 3vh;
+    font-size: 14px;
+  }
+
+  #signupBtn {
+    font-size: 20px;
+    height: 50px;
+    width: 125px;
+    margin-top: 2vh;
+    margin-bottom: -3vh;
   }
 
   #footer {
+    font-size: 17px;
+    margin-top: 10vh;
+  }
+}
+
+@media  screen and (min-height: 825px) and (max-height: 875px){
+  .RegisHeader {
+    left: 18px;
+    font-size: 45px;
+    margin-top: 3vh;
+  }
+  
+  #inputStyle {
+    border-radius: 22px;
+    font-size: 18px;
+    margin: 20px 0;
+    max-height: 45px;
+    max-width: 75vw;
+  }
+
+  #checkboxTerms {
+    margin-top: 0vh;
+    --size: 20px;
+  }
+
+  #checkboxTerms+p {
+    margin-top: 1vh;
+    font-size: 14px;
+  }
+
+  #signupBtn {
+    font-size: 20px;
+    height: 50px;
+    width: 125px;
+    margin-top: 0vh;
+    margin-bottom: -3vh;
+  }
+
+  #footer {
+    font-size: 18px;
+    margin-top: 10vh;
+  }
+}
+
+@media  screen and (min-height: 915px) {
+  .RegisHeader {
+    left: 25px;
+    font-size: 50px;
+    margin-top: 3vh;
+  }
+  
+  #inputStyle {
+    border-radius: 22px;
+    font-size: 20px;
+    margin: 20px 0;
+    max-height: 50px;
+    max-width: 75vw;
+  }
+
+  #checkboxTerms {
+    margin-top: 1vh;
+    --size: 22px;
+  }
+
+  #checkboxTerms+p {
+    margin-top: 1.5vh;
+    font-size: 16px;
+  }
+
+  #signupBtn {
+    font-size: 20px;
+    height: 50px;
+    width: 125px;
+    margin-top: 0vh;
+    margin-bottom: -3vh;
+  }
+
+  #footer {
+    font-size: 20px;
     margin-top: 10vh;
   }
 }
