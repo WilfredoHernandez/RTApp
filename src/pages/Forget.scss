@@ -55,7 +55,7 @@
   
 #requestInput{
   position: relative;
-  width: 75%; left: 8%;
+  width: 7px; left: 8%;
   height: 37px; top: 8%;
   border-radius: 15px;
   border-width: 1px;
@@ -90,11 +90,11 @@
   }
 
 #forgetFooter {
-  margin-top: 20vh;
+  margin-top: 21vh;
 }
 
 /* Media query to adapt design to screebs with max-width of 375px*/
-@media screen and (min-width: 375px)  {
+@media screen and (min-width: 375px) and (max-width: 380px)  {
   .forgetHeader {
     font-size: 38px;
     margin-top: 13px;
@@ -123,7 +123,7 @@
 
  #forgetFooter {
     font-size: 15px;
-    margin-top:10vh;
+    margin-top: 19vh;
   }
 }
 
@@ -165,6 +165,40 @@
   }    
 }
 
+@media screen and (min-height: 600px) and (max-height: 640px){
+  .forgetHeader{
+    font-size: 40px;
+    margin-top:1vh;  
+  }
+
+  .forgetSubheader {
+    margin-top: -1vh;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  #requestText {
+    margin-top: 12.5vh;
+    font-size: 16px;
+  }
+
+  #requestInput {
+    height: 35px;
+    font-size: 15px;
+    width: 280px; 
+  }
+
+  #requestButton {
+    width: 120px;
+    height: 33px;
+    font-size: 16px;
+  }
+
+  #forgetFooter{
+    top: 15vh;
+    left: 5vw;
+  }
+}
 @media  screen and (min-height: 915px) {
   .forgetHeader{
     font-size: 45px;
@@ -185,7 +219,7 @@
   #requestInput {
     height: 40px;
     font-size: 15px;
-    width: 75vw;
+    width: 320px;
     border-radius: 18px;
     border-width: 1px; 
   }
@@ -222,25 +256,26 @@
   #requestInput {
     height: 35px;
     font-size: 15px;
-    width: 400px; 
+    width: 280px; 
   }
 
   #requestButton {
     width: 120px;
     height: 33px;
     font-size: 16px;
+    margin-bottom: -2vh;
+  }
+
+  #requestButton {
+    width: 120px;
+    height: 33px;
+    font-size: 16px;
+    margin-bottom: -2vh;
   }
 
   #forgetFooter{
-    top: 16vh;
+    top: 14vh;
     left: 5vw;
-  }
-}
-
-
-@media screen and (min-width: 810px) and (max-height: 1080px) {
-  .forgetHeader{
-    margin-top: 50%;
   }
 }
   

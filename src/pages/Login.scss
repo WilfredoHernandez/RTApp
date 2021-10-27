@@ -114,29 +114,21 @@
         font-family: 'Nexa';
         --padding-start: 16px;
         --padding-top: 15px; 
-        margin: 10px 0;
+        margin: 1px 0;
         left: -6vw;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 50px;
     }  
     
-    .requestPsw{
-      position: relative;
-      width: 79%; left: 5%;
-      height: 35px; top: 12%;
-      border-radius: 20px;
-      border-width: 10px;
-      background-color: #b3b3b3;
-      font-size: 16px;
-      color: rgb(48, 48, 48); 
-    }
     
     #loginButton{
         position: relative;
-        width: 100px; left: 1.5vw;
-        height: 35px; top: 15%;
-        font-size: 14px;
+        width: 150px; left: 1.5vw;
+        height: 30px;
+        margin-top: 4vh;
+        font-size: 20px;
         font-style: normal;
+        --padding-top: 2px;
         --background: rgb(252, 72, 8);
     }
 
@@ -144,18 +136,19 @@
     #forgotPsw{
         position: relative;
         width: 300px; right: 0%;
-        height: 30px; top: 31%;
-        font-size: 12px;
+        height: 30px;
+        margin-top: 3vh;
+        font-size: 14px;
         color: rgb(252, 72, 8);
     }
 
     #signUp {
-        margin-top: 12%;
+        margin-top: 12vh;
         width: 250px;
         left: 9%;
         height: 45px;
         top: 16%;
-        font-size: 12px;
+        font-size: 14px;
         color: #fc4808;
     }
 }
